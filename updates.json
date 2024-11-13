@@ -1,4 +1,17 @@
 {
     "version": "1.0.1",
-    "html": "<h1>Updated Electron App Content!</h1><p>This is the updated version of the Electron app.</p>"
+    "html": "<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electron App</title>
+</head>
+<body>
+    <h1>Le bomboklad</h1>
+    <button id="checkButton">Check for Updates</button>
+    <script src="renderer.js"></script>
+</body>
+</html>
+"
 }
